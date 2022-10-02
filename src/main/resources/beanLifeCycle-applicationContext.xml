@@ -19,14 +19,14 @@
     </bean>
 
     <bean id="footballCoach"
-          class="coach_implementations.FootballCoach"
-          scope="singleton">
+          class="coach_implementations.FootballCoach">
         <constructor-arg ref="myFortuneService"/>
     </bean>
 
     <bean id="myCoach"
           class="coach_implementations.TrackCoach"
-          scope="prototype">
+          init-method="doMyStartupStuff"
+          destroy-method="doMyCleanupStuff">
     <!-- set up constructor injection -->
         <constructor-arg ref="myFortuneService"/>
     </bean>

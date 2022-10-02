@@ -4,28 +4,14 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2cf512d0-93a9-4f8d-b14b-5c396f2d6c71" name="Changes" comment="adding a new project that I am using to train the spring framework">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coach_implementations/BaseballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coach_implementations/CricketCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coach_implementations/FootballCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/coach_implementations/TrackCoach.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fortune_implementations/HappyFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/fortune_implementations/RandomFortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/interfaces/FortuneService.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/run/BeanScopeDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/run/SetterDemoApp.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/resources/sport.properties" afterDir="false" />
+    <list default="true" id="2cf512d0-93a9-4f8d-b14b-5c396f2d6c71" name="Changes" comment="adding new files in this project, today I wrote many code">
+      <change afterPath="$PROJECT_DIR$/src/main/java/run/BeanLifeCycleDemoApp.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/resources/beanLifeCycle-applicationContext.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/BaseballCoach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Coach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/interfaces/Coach.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/HelloSpringApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/HelloSpringApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/MyApp.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/MyLoggerConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/logger/MyLoggerConfig.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/TrackCoach.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/applicationContext.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/coach_implementations/TrackCoach.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/coach_implementations/TrackCoach.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/run/BeanScopeDemoApp.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/run/BeanScopeDemoApp.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/beanScope-applicationContext.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -60,12 +46,12 @@
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "WebServerToolWindowFactoryState": "false",
-    "last_opened_file_path": "D:/javaProjects/spring-demo-one/src/main/resources",
+    "last_opened_file_path": "D:/javaProjects/spring-demo-one",
     "project.structure.last.edited": "Project",
     "project.structure.proportion": "0.15",
     "project.structure.side.proportion": "0.2",
     "settings.editor.selected.configurable": "configurable.group.build",
-    "spring.configuration.checksum": "1ce4ab6795783b4849353aa1b18511ca"
+    "spring.configuration.checksum": "dd0c929ec1ff21d33f9a074ad59d978a"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -80,8 +66,24 @@
     <key name="MoveFile.RECENT_KEYS">
       <recent name="D:\javaProjects\spring-demo-one\src\main\resources" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="run" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.BeanScopeDemoApp">
+  <component name="RunManager" selected="Application.run.HelloSpringApp">
+    <configuration name="BeanLifeCycleDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="run.BeanLifeCycleDemoApp" />
+      <module name="spring-demo-one" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="run.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="BeanScopeDemoApp" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="run.BeanScopeDemoApp" />
       <module name="spring-demo-one" />
@@ -132,11 +134,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.run.HelloSpringApp" />
         <item itemvalue="Application.BeanScopeDemoApp" />
+        <item itemvalue="Application.BeanLifeCycleDemoApp" />
         <item itemvalue="Application.run.SetterDemoApp" />
-        <item itemvalue="Application.run.HelloSpringApp" />
         <item itemvalue="Application.run.MyApp" />
-        <item itemvalue="Application.run.HelloSpringApp" />
       </list>
     </recent_temporary>
   </component>
@@ -152,7 +154,10 @@
       <workItem from="1664551334209" duration="2473000" />
       <workItem from="1664563671497" duration="195000" />
       <workItem from="1664614383360" duration="4300000" />
-      <workItem from="1664618733904" duration="10106000" />
+      <workItem from="1664618733904" duration="10526000" />
+      <workItem from="1664713615313" duration="3443000" />
+      <workItem from="1664723261850" duration="99000" />
+      <workItem from="1664726674026" duration="673000" />
     </task>
     <task id="LOCAL-00001" summary="adding a new project that I am using to train the spring framework">
       <created>1664554258450</created>
@@ -168,7 +173,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664554315360</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="adding new files in this project, today I wrote many code">
+      <created>1664638624738</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1664638624738</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -187,6 +199,7 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="adding a new project that I am using to train the spring framework" />
-    <option name="LAST_COMMIT_MESSAGE" value="adding a new project that I am using to train the spring framework" />
+    <MESSAGE value="adding new files in this project, today I wrote many code" />
+    <option name="LAST_COMMIT_MESSAGE" value="adding new files in this project, today I wrote many code" />
   </component>
 </project>
